@@ -33,11 +33,7 @@ public class Serie extends Film {
 	
 	@Override
 	public String toString( ) {
-		return "Title: " + getTitle() + 
-				"\n Genre: " + getGenre() +
-				"\n Year: " + getYear() +
-				"\n Duration: " + getDuration();
+		return "Hola, este es el objeto Movie"
 	}
-	
 	
 }

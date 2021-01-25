@@ -10,12 +10,6 @@ public class Chapter extends Movie {
 		super(title, genre, creator, duration, year);
 		this.setSessionNumber(sessionNumber);
 	}
-	
-	@Override
-	public int getId() {
-		// TODO Auto-generated method stub
-		return this.id;
-	}
 
 	public int getSessionNumber() {
 		return sessionNumber;

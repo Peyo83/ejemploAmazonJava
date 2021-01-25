@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.peyo.AmazonViewer.model.Chapter.sessionNumber&apos; in &apos;com.peyo.AmazonViewer.model.Chapter&apos;&#x0D;&#x0A;- Original project: &apos;AmazonViewer&apos;&#x0D;&#x0A;- Original element: &apos;com.peyo.AmazonViewer.model.Chapter.sessionNumber&apos;&#x0D;&#x0A;- Getter method name: &apos;getSessionNumber&apos;&#x0D;&#x0A;- Setter method name: &apos;setSessionNumber&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;sessionNumber&apos;" flags="589830" getter="getSessionNumber" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.peyo.AmazonViewer.model{Chapter.java[Chapter^sessionNumber" insertion="0" setter="setSessionNumber" stamp="1611597513814" version="1.0" visibility="1"/>
+</session>

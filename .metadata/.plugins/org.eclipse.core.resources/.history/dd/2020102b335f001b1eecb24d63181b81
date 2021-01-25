@@ -1,0 +1,5 @@
+package com.peyo.AmazonViewer.model;
+
+public class Film {
+
+}
