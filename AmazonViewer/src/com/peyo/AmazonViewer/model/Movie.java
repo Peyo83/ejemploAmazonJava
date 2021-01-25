@@ -1,6 +1,8 @@
 package com.peyo.AmazonViewer.model;
 
-public class Movie extends Film{
+import java.util.Date;
+
+public class Movie extends Film implements IVisualizable{
 	private int id;
 	private int timeViewed;
 
@@ -34,6 +36,21 @@ public class Movie extends Film{
 				"\n Genre: " + getGenre() +
 				"\n Year: " + getYear() +
 				"\n Duration: " + getDuration();
+	}
+
+	@Override
+	public Date startToSee(Date dateI) {
+		// TODO Auto-generated method stub
+		return dateI;
+	}
+
+	@Override
+	public void stopToSee(Date dateI, Date dateF) {
+		if (dateF.getSeconds() > dateI.getSeconds()) {
+			setTimeViewed(dateF.getSeconds() - dateI.getSeconds());
+		}else {
+			setTimeViewed(0);
+		}
 	}
 	
 }	

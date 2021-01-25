@@ -2,14 +2,18 @@ package com.peyo.AmazonViewer;
 
 import java.util.Date;
 
+import com.peyo.AmazonViewer.model.Book;
 import com.peyo.AmazonViewer.model.Movie;
 
 public class Main {
 
 	public static void main(String[] args) {
+		
 		Movie movie  = new Movie("Coco", "Animation", "", 120, (short)2017);
 		System.out.println(movie);
-		//showMenu();
+		
+		Book book = new Book("El cisne negro", "Alfaguara", 20);
+		System.out.println(book);
 	}
 		
 	public static void showMenu() {
@@ -18,7 +22,7 @@ public class Main {
 			
 			System.out.println("BIENVENIDOS AMAZON VIEWER");
 			System.out.println("");
-			System.out.println("Selecciona el número de la opción deseada");
+			System.out.println("Selecciona el nï¿½mero de la opciï¿½n deseada");
 			System.out.println("1. Movies");
 			System.out.println("2. Series");
 			System.out.println("3. Books");
@@ -55,7 +59,7 @@ public class Main {
 	
 				default:
 					System.out.println();
-					System.out.println("....¡¡Selecciona una opción!!....");
+					System.out.println("....ï¿½ï¿½Selecciona una opciï¿½n!!....");
 					System.out.println();
 					break;
 			}
