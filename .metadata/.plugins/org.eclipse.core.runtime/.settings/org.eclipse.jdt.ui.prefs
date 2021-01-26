@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Cloneable"><rhs name\="java.util.Date"/></lhs><lhs name\="java.util.Date"><rhs name\="java.util.Date"/></lhs><lhs name\="com.peyo.AmazonViewer.model.Movie"><rhs name\="com.peyo.AmazonViewer.model.Movie"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Cloneable"><rhs name\="java.util.Date"/></lhs><lhs name\="java.util.Date"><rhs name\="java.util.Date"/></lhs><lhs name\="com.peyo.AmazonViewer.model.Movie"><rhs name\="com.peyo.AmazonViewer.model.Movie"/></lhs><lhs name\="com.peyo.AmazonViewer.model.Publication"><rhs name\="com.peyo.AmazonViewer.model.Book"/></lhs><lhs name\="com.peyo.AmazonViewer.model.Book"><rhs name\="com.peyo.AmazonViewer.model.Book"/></lhs></history>
 content_assist_number_of_computers=12
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
